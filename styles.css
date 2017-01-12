@@ -1,0 +1,89 @@
+img {
+	height:60px;
+	width:60px;
+	border-radius:50%;
+	border: 2px solid #6441a5 !important;
+	display:inline-block;
+}
+
+#streamsContent{
+	margin:60px auto;
+	border:4px solid black;
+	width:60%;
+	color:black !important;
+	padding:20px;
+	border-radius:10px;
+	font-family: 'Raleway', sans-serif;
+	font-size:25px;
+	background:white;
+}
+
+input{
+	transition:width 500ms;
+	margin:20px auto !important;
+	float:none;
+	width:60% !important;
+}
+
+input:focus{
+	transition:width 500ms;
+	width:100% !important;
+}
+
+a:hover{
+	color:black !important;
+}
+
+.streamDiv{
+	padding:20px 0;
+	margin:5px 0;
+	color:black !important;
+}
+
+.searched{
+	display:block !important;
+}
+
+.notSearched{
+	display:none;
+}
+
+h1{
+	font-family: 'Frank Ruhl Libre', sans-serif;
+	font-weight: 700;
+	font-size:60px !important;
+	color:#6441a5 !important;
+}
+
+body,html{
+	height:100%;
+}
+
+body{
+	background-color: #6441a5 !important
+}
+
+p{
+	padding:10px 0 !important;
+}
+
+button{
+	width:32%;
+	background: #6441a5;
+	color:white !important;
+}
+
+:target{
+
+}
+
+#offlineIcon,#onlineIcon,#allIcon{
+	display:none;
+}
+
+h4{
+	float:right;
+	font-family: 'Open Sans Condensed', sans-serif !important;
+	display:block !important;
+	font-size:22px !important;
+}

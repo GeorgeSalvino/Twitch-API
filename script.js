@@ -6,7 +6,7 @@ streams.forEach(function(stream){
 	$.ajax( { 
       url: urlIsOnline +stream,
        success: function(data) {
-       	console.log(data)
+       	console.log(data.stream)
        	if (data.stream==null){
        		$.ajax( { 
       			url: urlIsOffline +stream,

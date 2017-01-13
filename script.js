@@ -19,7 +19,7 @@ streams.forEach(function(stream){
        			}
        			       			
 			}
-       		})
+       		},cache:false)
       	}
        	else{
        		console.log(stream);

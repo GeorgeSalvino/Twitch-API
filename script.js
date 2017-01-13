@@ -18,8 +18,8 @@ streams.forEach(function(stream){
        				$("#streamsContent").append("<a href='"+ data.url+"'<div class='streamDiv'><p class='offline'><img src='"+data.logo+"'>   " +stream + " - Offline</p></div>");
        			}
        			       			
-			}
-       		},cache:false)
+			},cache:false
+       		})
       	}
        	else{
        		console.log(stream);
